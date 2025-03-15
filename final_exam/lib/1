@@ -1,0 +1,9 @@
+CheckboxListTile(
+                      title: const Text("ประกันพัศดุ+50"),
+                      value: acceptTerms,
+                      onChanged: (value) {
+                        setState(() {
+                          acceptTerms = value!;
+                        });
+                      },
+                    ),
