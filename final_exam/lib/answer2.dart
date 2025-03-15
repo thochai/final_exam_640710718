@@ -145,7 +145,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
                     
                     const SizedBox(height: 16),
                     Center(
-                      child: ElevatedButton(
+                      child: ElevatedButton( //
                         onPressed: acceptTerms
                             ? () {
                                 if (_formKey.currentState!.validate()) {
